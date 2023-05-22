@@ -1,0 +1,28 @@
+{
+  "main": "index.js",
+  "types": "electron.d.ts",
+  "bin": {
+    "electron": "cli.js"
+  },
+  "scripts": {
+    "postinstall": "node install.js"
+  },
+  "dependencies": {
+    "@electron/get": "^1.0.1",
+    "@types/node": "^14.6.2",
+    "extract-zip": "^1.0.3"
+  },
+  "engines": {
+    "node": ">= 10.0"
+  },
+  "name": "electron",
+  "version": "13.6.9",
+  "repository": "https://github.com/Alex313031/electron-releases-13",
+  "description": "AVX optimized builds of Electron 13.6.9.",
+  "license": "MIT",
+  "author": "Alexander Frick <Alex313031@gmail.com>",
+  "keywords": [
+    "electron",
+    "avx"
+  ]
+}
